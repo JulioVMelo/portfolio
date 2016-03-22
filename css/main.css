@@ -1,0 +1,276 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color:#FFF;
+    margin:0;
+    padding: 0;
+    font-size: 16x;
+}
+
+/*===== Header =====*/
+
+.topo{
+    background-color:#2c3e50;
+    height: 92px;
+    position: fixed;
+    width: 100%;
+}
+.topo a:hover{
+    color: #18BC9C;
+}
+.content{
+    width: 960px;
+    margin:0 auto;
+}
+header .nome{
+    float: left;
+    color: #fff;
+    font-size: 25px;
+}
+header h2{
+    padding: 34px 0 0 0 ;
+}
+.menu{
+    float: right;
+    padding: 5px 0 0 0;
+}
+.main_menu li{
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.main_menu li:last-child{
+    margin-right: 0;
+}
+/*===== Fim Header =====*/
+
+/*===== Apresentação =====*/
+.apresentacao{
+    background-color: #18BC9C;
+    height: 630px;
+    text-align: center;
+   
+}
+.apresentacao img{
+    width: 220px;
+    padding-top: 160px;
+}
+.apresentacao h1{
+    font-size: 58px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.apresentacao i{
+    margin-bottom: 10px;
+}
+.apresentacao p{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+}
+/*===== Fim Apresentação =====*/
+/*===== Portifolio =====*/
+.portifolio{
+    background: #FBFCFC;
+    height: 760px;
+}
+.portifolio h2{
+    color: #2C3E50;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+.portifolio span i{
+    color: #2C3E50;
+    text-align: center;
+    color: #2C3E50;
+    display: block;
+}
+.trabalhos img{
+    width: 300px;
+    height: 260px;
+    margin: 10px 20px 10px 0;
+}
+.trabalhos{
+    float: left;
+}
+.trabalhos img:nth-of-type(3n+0){
+    margin-right: 0px;
+    background-color: blue;
+}
+.clear{
+    clear: both;
+}
+/*===== Fim Portifolio =====*/
+
+/*===== About =====*/
+.about{
+    height: 440px;
+    background-color: #18BC9C;
+}
+.about h2{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 41px;
+}
+.about span i{
+    display: block;
+    text-align: center;
+}
+.about .content{
+    width: 630px;
+}
+.content .p1{
+    padding-top: 30px;
+    width: 300px;
+    float: left;
+    text-align: left;
+    line-height: 24px;
+}
+.content .p2{
+    line-height: 24px;
+    padding-top: 30px;
+    width: 300px;
+    text-align: left;
+    float: right;
+}
+/*===== Fim About =====*/
+
+/*===== Contact =====*/
+.contact {
+    width: 630px;
+    text-align: center;
+    margin-top: 70px;
+}
+.contact h2{
+    color: #2c3e50;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.contact .fa{
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+.contact input[type="text"]{
+    display: block;
+    margin: 0 auto;
+    width: 630px;
+    color: #2c3e50;
+    height: 80px;
+    background:none;
+    border: none;
+    border-top: 1.6px solid #EEEEEE;
+         
+}
+.contact input[type="text"]:focus{
+    color: #2C3E50;
+}
+.contact textarea{
+    color: #2c3e50;
+;
+    width: 630px;
+    border: none;
+    border-top: 1px solid #eee;
+    background: none;
+    resize: none;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.contact textarea:focus{
+    color: #2C3E50;
+}
+.contact input[type="submit"]{
+    float: left;
+    color: #fff;
+    height: 50px;
+    width: 80px;
+    border-radius: 6px;
+    background-color: #18bc9c;
+    border: none;
+    margin-left: 10px;    
+    margin-bottom: 70px;
+}
+.contact input[type="submit"]:hover{
+    background:#128F76;
+}
+/*===== Fim Contact =====*/
+
+/*===== Social =====*/
+.social{
+    color: #fff;
+    background-color: #2c3e50;
+    height: 220px;
+}
+.social .content{
+    width: 840px;
+}
+.social .location{
+    float: left;
+}
+.social h2{
+    font-size: 24px;
+    padding-top: 60px;
+    margin-left: 20px;
+}
+.social address{
+    float: left;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "lato";
+    text-align: center;
+}
+.social .social-icons{
+    float:left;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 90px;
+}
+.social-icons i{
+    padding-top: 20px;    
+}
+.aboutfreela{
+    margin-left: 30px;
+    width: 300px;
+    float: right;
+    text-align: center;
+}
+.aboutfreela p{
+    padding-top: 20px;
+    font-family: "lato";
+}
+.social .content{
+    background-color: aquamarine;
+}
+/*===== Fim Social =====*/
+/*===== Footer =====*/
+footer{
+    text-align: center;
+    background-color: #233140;
+    height: 60px;
+}
+footer p{
+    padding-top: 20px;
+    font-family: "lato";
+    font-size: 14px;
+}
+/*===== Footer =====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
