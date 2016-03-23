@@ -6,14 +6,14 @@
     color:#FFF;
     margin:0;
     padding: 0;
-    font-size: 16x;
+    font-size: 1em;
 }
 
 /*===== Header =====*/
 
 .topo{
     background-color:#2c3e50;
-    height: 92px;
+    padding-bottom: 30px;
     position: fixed;
     width: 100%;
 }
@@ -21,13 +21,13 @@
     color: #18BC9C;
 }
 .content{
-    width: 960px;
+    width: 70.063694268%; /*1100px / 1570px*/
     margin:0 auto;
 }
 header .nome{
     float: left;
     color: #fff;
-    font-size: 25px;
+    font-size: 1.5625em;
 }
 header h2{
     padding: 34px 0 0 0 ;
@@ -39,7 +39,7 @@ header h2{
 .main_menu li{
     float: left;
     margin-right: 20px;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 800;
     letter-spacing: 1px;
 }
@@ -51,16 +51,16 @@ header h2{
 /*===== Apresentação =====*/
 .apresentacao{
     background-color: #18BC9C;
-    height: 630px;
     text-align: center;
-   
+    
 }
 .apresentacao img{
     width: 220px;
+    max-width: 100%;
     padding-top: 160px;
 }
 .apresentacao h1{
-    font-size: 58px;
+    font-size: 3.625em;
     margin-top: 20px;
     font-weight: 700;
     margin-bottom: 0;
@@ -70,18 +70,20 @@ header h2{
 }
 .apresentacao p{
     font-family: 'Lato', sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
+    padding-bottom: 40px;
 }
 /*===== Fim Apresentação =====*/
 /*===== Portifolio =====*/
+
 .portifolio{
     background: #FBFCFC;
-    height: 760px;
+    padding-bottom: 20px;    
 }
 .portifolio h2{
     color: #2C3E50;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
     padding-top: 30px;
     
 }
@@ -91,17 +93,19 @@ header h2{
     color: #2C3E50;
     display: block;
 }
-.trabalhos img{
-    width: 300px;
+.projeto img{
+    max-width: 270px;
+    width: 100%;
     height: 260px;
-    margin: 10px 20px 10px 0;
+    margin: 10px 0px 10px 0;
+
 }
-.trabalhos{
+.trabalhos .projeto:nth-child(3n+3){
+    margin-right: 0px;    
+}
+.projeto{
     float: left;
-}
-.trabalhos img:nth-of-type(3n+0){
-    margin-right: 0px;
-    background-color: blue;
+    margin-right: 1.818181818%;
 }
 .clear{
     clear: both;
@@ -110,24 +114,24 @@ header h2{
 
 /*===== About =====*/
 .about{
-    height: 440px;
     background-color: #18BC9C;
+    padding-bottom: 70px;
 }
 .about h2{
     text-align: center;
     padding-top: 70px;
-    font-size: 41px;
+    font-size: 2.5625em;
 }
 .about span i{
     display: block;
     text-align: center;
 }
 .about .content{
-    width: 630px;
+    width: 51.272727273%;
 }
 .content .p1{
     padding-top: 30px;
-    width: 300px;
+    width: 47.619047619%;
     float: left;
     text-align: left;
     line-height: 24px;
@@ -135,7 +139,7 @@ header h2{
 .content .p2{
     line-height: 24px;
     padding-top: 30px;
-    width: 300px;
+    width: 47.619047619%;
     text-align: left;
     float: right;
 }
@@ -143,13 +147,13 @@ header h2{
 
 /*===== Contact =====*/
 .contact {
-    width: 630px;
+    width:57.272727273%;
     text-align: center;
     margin-top: 70px;
 }
 .contact h2{
     color: #2c3e50;
-    font-size: 40px;
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 .contact .fa{
@@ -159,12 +163,12 @@ header h2{
 .contact input[type="text"]{
     display: block;
     margin: 0 auto;
-    width: 630px;
+    width: 100%;
     color: #2c3e50;
     height: 80px;
     background:none;
     border: none;
-    border-top: 1.6px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
          
 }
 .contact input[type="text"]:focus{
@@ -172,8 +176,7 @@ header h2{
 }
 .contact textarea{
     color: #2c3e50;
-;
-    width: 630px;
+    width: 100%;
     border: none;
     border-top: 1px solid #eee;
     background: none;
@@ -188,11 +191,11 @@ header h2{
     float: left;
     color: #fff;
     height: 50px;
-    width: 80px;
+    width: 12.498412698%;
     border-radius: 6px;
     background-color: #18bc9c;
     border: none;
-    margin-left: 10px;    
+    margin-left: 1.587301587%;    
     margin-bottom: 70px;
 }
 .contact input[type="submit"]:hover{
@@ -204,40 +207,40 @@ header h2{
 .social{
     color: #ffffff;
     background-color: #2c3e50;
-    height: 220px;
+    padding-bottom: 40px;
 }
 .social .content{
-    width: 840px;
+    width: 76.363636364%;
 }
 .social .location{
     float: left;
 }
 .social h2{
-    font-size: 24px;
+    font-size: 1.25em;
     padding-top: 60px;
     margin-left: 20px;
 }
 .social address{
     float: left;
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 1em;
     font-family: "lato";
     text-align: center;
 }
 .social .social-icons{
     float:left;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 100;
     border-radius: 10px;
     text-align: center;
-    margin-left: 90px;
+    margin-left: 10.714285714%;
 }
 .social-icons i{
     padding-top: 20px;    
 }
 .aboutfreela{
-    margin-left: 30px;
-    width: 300px;
+    margin-left: 3.571428571%;
+    width: 35.714285714%;
     float: right;
     text-align: center;
 }
@@ -245,20 +248,18 @@ header h2{
     padding-top: 20px;
     font-family: "lato";
 }
-.social .content{
-    background-color: aquamarine;
-}
+
 /*===== Fim Social =====*/
 /*===== Footer =====*/
 footer{
     text-align: center;
     background-color: #233140;
-    height: 60px;
+    padding-bottom: 20px;
 }
 footer p{
     padding-top: 20px;
     font-family: "lato";
-    font-size: 14px;
+    font-size: 0.875em;
 }
 /*===== Footer =====*/
 
