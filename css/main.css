@@ -94,8 +94,8 @@ header h2{
     display: block;
 }
 .projeto img{
-    max-width: 270px;
-    width: 100%;
+    max-width: 360px;
+    width: 100%;    
     height: 260px;
     margin: 10px 0px 10px 0;
 
@@ -104,8 +104,9 @@ header h2{
     margin-right: 0px;    
 }
 .projeto{
+    width: 31%;
     float: left;
-    margin-right: 1.818181818%;
+    margin-right:3.5%;
 }
 .clear{
     clear: both;
@@ -229,7 +230,7 @@ header h2{
     text-align: center;
 }
 .social address{
-    float: left;
+    
     padding-top: 20px;
     font-size: 1em;
     font-family: "lato";
@@ -244,7 +245,8 @@ header h2{
     margin-right: 5%;
 }
 .social-icons i{
-    padding-top: 20px;    
+    padding-top: 20px;
+    cursor: pointer;
 }
 .aboutfreela{
     width: 30%;
