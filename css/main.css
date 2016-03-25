@@ -272,6 +272,23 @@ footer p{
 }
 /*===== Footer =====*/
 
+/*===== Media queries =====*/
+@media screen and (max-width: 1025px) {
+    .content{
+        width: 90%;
+    }
+    .main_menu li{
+        font-size: 1em;
+    }
+    .social-icons i{
+        font-size: 1.5em;
+    }
+    .social .content{
+        width: 90%;
+    }
+}
+/*===== Fim Media queries =====*/
+
 
 
 
