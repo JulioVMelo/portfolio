@@ -342,11 +342,63 @@ footer p{
     header h2{
         padding-top: 15px;
     }
+}
+
    
     /*.menu.responsive{
         display: block;
    
     }*/
+
+
+@media screen and (max-width:640px){
+    .projeto{
+        width: 100%;
+        text-align: center;
+    }
+    .content .p1{
+        padding-top: 30px;
+        width: 100%;
+        text-align: justify;
+        line-height: 24px;
+        float: none;
+    }
+    .content .p2{
+        line-height: 24px;
+        padding-top: 30px;
+        width:100%;
+        text-align: justify;
+    }
+    .about .content{
+        width: 90%;
+    }
+    
+    .location{
+        width: 100%;
+    }
+    .social .social-icons{
+        width: 100%;
+        font-weight: 100;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .aboutfreela{
+        width: 100%;
+    }
+}
+@media screen and (max-width:370px){
+    .content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+
+    
 /*===== Fim Media queries =====*/
 
 
