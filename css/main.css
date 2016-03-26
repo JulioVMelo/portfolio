@@ -36,6 +36,9 @@ header h2{
     float: right;
     padding: 5px 0 0 0;
 }
+.menu-mobile{
+    display: none;
+}
 .main_menu li{
     float: left;
     margin-right: 20px;
@@ -286,11 +289,65 @@ footer p{
     .social .content{
         width: 90%;
     }
+    .about .content{
+     width: 70%;
+    }
 }
+
+@media screen and (max-width: 920px){
+    .portifolio .content{
+        padding-left: 5%;
+        padding-right: 5%;   
+    }
+    .projeto{
+        width: 45%;
+        margin-right: 5%;
+        margin-left: 1.7%;
+        padding: 0;
+    }
+    .trabalhos .projeto:nth-child(2n+2){
+        margin-right: 0px;    
+    } 
+    .trabalhos .projeto:nth-child(3){
+        margin-right: 5%;    
+    }
+}
+@media screen and (max-width: 780px){
+    header .content{
+        width: 96%;
+    }
+    .portifolio .content{
+        padding: 0;
+        width: 95%;
+    }
+    .menu-mobile{
+        display: block;
+        float: right;
+        font-size: 1.75em;
+        cursor: pointer;
+    }
+    .menu{
+        border-top: 1px solid #ccc;
+        clear: both;
+        float: left;
+        width: 100%;
+        display: none;
+    }
+    .main_menu li{
+        text-align: left;
+        width: 100%;
+        margin-top: 2%;
+     
+    }
+    header h2{
+        padding-top: 15px;
+    }
+   
+    /*.menu.responsive{
+        display: block;
+   
+    }*/
 /*===== Fim Media queries =====*/
-
-
-
 
 
 
