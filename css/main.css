@@ -9,6 +9,7 @@
     font-size: 1em;
 }
 
+
 /*===== Header =====*/
 
 .topo{
@@ -229,8 +230,11 @@ header h2{
 .location h2{
     text-align: center;
 }
-.location p{
-    text-align: center;
+.location address{
+    
+}
+.location i{
+    font-size: 1.25em;
 }
 .social address{
     
@@ -250,6 +254,19 @@ header h2{
 .social-icons i{
     padding-top: 20px;
     cursor: pointer;
+    font-size: 2em;
+}
+.fa-twitter:hover{
+    color: #2AA9E0;
+}
+.fa-facebook:hover{
+    color: #4862A3;
+}
+.fa-github:hover{
+    color: #4078C0;
+}
+.fa-google:hover{
+    color: #DB4437;
 }
 .aboutfreela{
     width: 30%;
